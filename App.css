@@ -1,0 +1,21 @@
+/* Контейнер карточки, чтобы hover не вылезал */
+.hover-card-container {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
